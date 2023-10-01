@@ -5,32 +5,32 @@ import (
 	"sync"
 )
 
-type singleTon struct {}
-var instance *singleTon
+type singleton struct {}
+var instance *singleton
 var mu sync.Mutex
 var once sync.Once
-var instance2 = &singleTon{}
+var instance2 = &singleton{}
 
-func GetInstance() *singleTon{
+func GetInstance() *singleton{
 	// double check
 	if instance == nil{
 		mu.Lock()
 		defer mu.Unlock()
 		if instance == nil{
-			instance = &singleTon{}
+			instance = &singleton{}
 		}
 	}
 	return instance
 }
 
-func GetInstance2() *singleTon{
+func GetInstance2() *singleton{
 	once.Do(func() {
-		instance = &singleTon{}
+		instance = &singleton{}
 	})
 	return instance
 }
 
-func GetInstance3() *singleTon{
+func GetInstance3() *singleton{
 	return instance2
 }
 
