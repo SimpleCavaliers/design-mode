@@ -9,6 +9,7 @@ https://www.runoob.com/design-pattern/design-pattern-tutorial.html
 - [x] Factory
 - [x] Decorator
 - [x] Proxy
+- [x] Adapter
 
 
 
