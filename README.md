@@ -11,7 +11,7 @@ https://www.runoob.com/design-pattern/design-pattern-tutorial.html
 - [x] Proxy
 - [x] Adapter
 - [x] Strategy
-
+- [x] Flyweight
 
 
 
