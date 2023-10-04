@@ -12,6 +12,7 @@ https://www.runoob.com/design-pattern/design-pattern-tutorial.html
 - [x] Adapter
 - [x] Strategy
 - [x] Flyweight
+- [x] Composite
 
 
 
