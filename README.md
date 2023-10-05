@@ -13,6 +13,6 @@ https://www.runoob.com/design-pattern/design-pattern-tutorial.html
 - [x] Strategy
 - [x] Flyweight
 - [x] Composite
-
+- [x] Observer
 
 
