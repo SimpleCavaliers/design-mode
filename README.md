@@ -14,5 +14,5 @@ https://www.runoob.com/design-pattern/design-pattern-tutorial.html
 - [x] Flyweight
 - [x] Composite
 - [x] Observer
-
+- [x] Template
 
