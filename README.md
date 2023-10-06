@@ -15,4 +15,4 @@ https://www.runoob.com/design-pattern/design-pattern-tutorial.html
 - [x] Composite
 - [x] Observer
 - [x] Template
-
+- [x] Visitor
